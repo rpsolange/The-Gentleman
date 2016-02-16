@@ -1,0 +1,112 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+.container{
+	width: 960px;
+}
+p{
+	font-family: 'Dosis', sans-serif;
+}
+header{
+	background-color: #323232;
+	padding: 1%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+header h1{
+	display: inline;
+	font-weight: lighter;
+}
+header nav a{
+	color: white;
+	margin: 0px 10px;
+	font-family: 'Dosis', sans-serif;
+	display: inline;
+}
+header nav{
+	display: inline;
+	float: right;
+	padding-top: 1%;
+}
+header a:hover{
+	color: #E0196A
+}
+body{
+	background-color: rgba(136, 136, 136, 0.25);
+}
+/*1st Section*/
+.city{
+	width: 550px;
+	margin: 6% 3%;
+}
+.image h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.image .container{
+	background-color: white;
+}
+.parrafo{
+	padding-top: 4.5%;
+	padding-bottom: 4.5%;
+	color: #323232;
+}
+.parrafo p{
+	font-size: 0.9em;
+}
+.image a{
+	border-radius: 100px;
+	background-color: gray;
+	color: white;
+	padding: 5px 15px;
+}
+/*2nd Section*/
+.project{
+	color: #323232;
+}
+.project .container{
+	background-color: white;
+}
+.project h2{
+	font-family: 'Dosis', sans-serif;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+.project nav a{
+    color: gray;
+    margin-left: 0px 5px 0px 5px;
+}
+.project a:hover{
+	color: #323232
+}
+/*3rd Section*/
+.project .col-6{
+	padding: 2%;
+	margin-top: 10px;
+}
+.pic{
+	width: 425px;
+}
+.text{
+	font-size: 1.1em;
+}
+.green, .red, .text{
+	display: inline
+}
+.green, .red{
+	position: relative;
+	left: 25px;
+	color: #323232;
+}
+a.green:hover{
+	color: green;
+}
+a.red:hover{
+	color:red;
+}
+.load{
+	background-color: rgba(50, 50, 50, 0.79);
+	color: white;
+	border-radius: 100px;
+	padding: 10px 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
